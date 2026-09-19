@@ -2,66 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1><b>Student Registration Form</b></h1>
-    <label>Full Name :</label>
-    <input type="text" placeholder="Enter your name"><br><br>
-    <label>Email :</label>
-    <input type="text" placeholder="Enter your email"><br><br>
-    <label>Password :</label>
-    <input type="text" placeholder="Enter your password"><br><br>
-    <label>Age :</label>
-    <input type="number" placeholder="Enter your age"><br><br>
-    <label>Date of Birth :</label>
-    <input type="Date"><br><br>
-    <label>Gender :</label>
-    <input type="radio" name="gender">
-    <label>Male</label>
-    <input type="radio" name="gender">
-    <label>Female</label><br><br>
-    <label>Department :</label>
-    <select>
-        <option>Select Department</option>
-        <option>CSE</option>
-        <option>AIDS</option>
-        <option>ECE</option>
-        <option>EEE</option>
-        <option>EIE</option>
-    </select><br><br>
-    <label>Skill</label>
-    <input type="radio" name="skill">
-    <label>HTML</label>
-    <input type="radio" name="skill">
-    <label>CSS</label>
-    <input type="radio" name="skill">
-    <label>Javascript</label><br><br>
-    <label>Address :</label><br>
-    <textarea placeholder="Enter your address"></textarea><br><br>
-    <label>Phone number</label>
-    <input type="text" placeholder="Enter your number"><br><br>
-    <button>Submit</button>
-    <button>Save</button>
-    <button>Reset</button><br><br>
-
     <table border="1">
         <tr>
-            <th>Name</th>
-            <th>Marks</th>
-            <th>Grade</th>
-            <th>Rool no</th>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
         </tr>
         <tr>
-        <td>aa</td>
-        <td rowspan="2">95</td>
-        <td rowspan="2">A</td>
-        <td>01</td>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2"> Topic</th>
         </tr>
         <tr>
-            <td>bb</td>
-            <td>02</td>
+            <th>Begin</th>
+            <Th>End</Th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td rowspan="2">XPath</td>
+        </tr>
+        <tr>
+            <td>11:00 a.m.</td>
+            <td>2:00 p.m.</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m.</td>
+            <td>12:00 p.m.</td>
+            <td>XSL Formatting Objects</td>
         </tr>
     </table>
 </body>
